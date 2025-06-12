@@ -16,7 +16,7 @@ apikey=os.environ["GOOGLE_API_KEY"]="AIzaSyDwy-SLCowgdmaY0axSjmtb0L8rtpTx4Nc"
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 model=genai.GenerativeModel("gemini-1.5-flash")
 
-st.header("Chat With Gemini")
+st.title("Chat With Gemini")
 st.header("",divider=True)
 a=st.chat_input()
 st.logo("Screenshot_2025-05-29_131424-removebg-preview (1).png",size="large",link="https://profile-59jw7xey2hvfc5gmtth4cu.streamlit.app/")
